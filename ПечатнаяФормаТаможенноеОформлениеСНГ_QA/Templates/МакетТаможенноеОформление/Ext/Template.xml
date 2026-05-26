@@ -15,7 +15,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>44</size>
+		<size>45</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -479,6 +479,17 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Объем Л/кг</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>32</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>Технические условия из сертификата качества</v8:content>
 						</v8:item>
 					</tl>
@@ -717,7 +728,7 @@
 				</c>
 			</c>
 			<c>
-				<i>14</i>
+				<i>15</i>
 				<c>
 					<f>32</f>
 					<tl>
@@ -740,7 +751,7 @@
 				</c>
 			</c>
 			<c>
-				<i>19</i>
+				<i>20</i>
 				<c>
 					<f>39</f>
 				</c>
@@ -768,7 +779,7 @@
 				</c>
 			</c>
 			<c>
-				<i>23</i>
+				<i>24</i>
 				<c>
 					<f>37</f>
 				</c>
@@ -955,6 +966,12 @@
 				<c>
 					<f>43</f>
 					<parameter>ВесБрутто</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>43</f>
+					<parameter>ОбъемЛКг</parameter>
 				</c>
 			</c>
 			<c>
@@ -1181,6 +1198,11 @@
 			</c>
 			<c>
 				<c>
+					<f>53</f>
+				</c>
+			</c>
+			<c>
+				<c>
 					<f>54</f>
 				</c>
 			</c>
@@ -1218,7 +1240,7 @@
 				</c>
 			</c>
 			<c>
-				<i>23</i>
+				<i>24</i>
 				<c>
 					<f>37</f>
 				</c>
@@ -1453,12 +1475,12 @@
 	<merge>
 		<r>11</r>
 		<c>14</c>
-		<w>1</w>
+		<h>1</h>
 	</merge>
 	<merge>
 		<r>11</r>
-		<c>16</c>
-		<h>1</h>
+		<c>15</c>
+		<w>1</w>
 	</merge>
 	<merge>
 		<r>11</r>
@@ -1478,11 +1500,16 @@
 	<merge>
 		<r>11</r>
 		<c>20</c>
+		<h>1</h>
+	</merge>
+	<merge>
+		<r>11</r>
+		<c>21</c>
 		<w>1</w>
 	</merge>
 	<merge>
 		<r>11</r>
-		<c>22</c>
+		<c>23</c>
 		<h>1</h>
 	</merge>
 	<merge>
@@ -1492,7 +1519,7 @@
 	</merge>
 	<merge>
 		<r>14</r>
-		<c>20</c>
+		<c>21</c>
 		<w>2</w>
 	</merge>
 	<namedItem xsi:type="NamedItemCells">
