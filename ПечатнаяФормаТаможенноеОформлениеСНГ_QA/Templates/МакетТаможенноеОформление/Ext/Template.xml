@@ -995,7 +995,7 @@
 			<c>
 				<c>
 					<f>42</f>
-					<parameter>Объем</parameter>
+					<parameter>КоличествоОбъем</parameter>
 				</c>
 			</c>
 			<c>
@@ -1214,7 +1214,7 @@
 			<c>
 				<c>
 					<f>56</f>
-					<parameter>Объем</parameter>
+					<parameter>КоличествоОбъем</parameter>
 				</c>
 			</c>
 			<c>
