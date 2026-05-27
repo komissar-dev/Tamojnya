@@ -1197,7 +1197,12 @@
 			<c>
 				<c>
 					<f>47</f>
-					<parameter>ТекстИтогоТНВЭД</parameter>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Итого по ТН ВЭД</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
