@@ -362,7 +362,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Код товара</v8:content>
+							<v8:content>Код ТН ВЭД</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -811,7 +811,7 @@
 			<c>
 				<c>
 					<f>41</f>
-					<parameter>КодТовара</parameter>
+					<parameter>КодТНВЭД</parameter>
 				</c>
 			</c>
 			<c>
@@ -1191,6 +1191,192 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>15</index>
+		<row>
+			<formatIndex>40</formatIndex>
+			<c>
+				<c>
+					<f>47</f>
+					<parameter>ТекстИтогоТНВЭД</parameter>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>48</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+					<parameter>КоличествоКоробок</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>51</f>
+					<parameter>ВесНетто</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>52</f>
+					<parameter>ВесНеттоУпаковка</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>43</f>
+					<parameter>ВесБрутто</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>54</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>55</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+					<parameter>КоличествоОбъем</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>45</f>
+					<parameter>Стоимость</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+					<parameter>Всего</parameter>
+				</c>
+			</c>
+			<c>
+				<i>18</i>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>16</index>
 		<row>
 			<empty>true</empty>
@@ -1198,8 +1384,8 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>58</defaultFormatIndex>
-	<height>15</height>
-	<vgRows>15</vgRows>
+	<height>16</height>
+	<vgRows>16</vgRows>
 	<merge>
 		<r>0</r>
 		<c>0</c>
@@ -1340,6 +1526,11 @@
 		<c>0</c>
 		<w>4</w>
 	</merge>
+	<merge>
+		<r>15</r>
+		<c>0</c>
+		<w>4</w>
+	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
 		<area>
@@ -1356,6 +1547,16 @@
 			<type>Rows</type>
 			<beginRow>14</beginRow>
 			<endRow>14</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ИтогТНВЭД</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>15</beginRow>
+			<endRow>15</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
