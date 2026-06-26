@@ -1837,6 +1837,12 @@
 		<horizontalAlignment>Left</horizontalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧДЦ=2</v8:content>
+			</v8:item>
+		</format>
 	</format>
 	<format>
 		<font>3</font>
@@ -1847,7 +1853,7 @@
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>ЧДЦ=3</v8:content>
+				<v8:content>ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
 	</format>
@@ -1885,6 +1891,12 @@
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧДЦ=2</v8:content>
+			</v8:item>
+		</format>
 	</format>
 	<format>
 		<font>2</font>
@@ -1916,6 +1928,12 @@
 		<border>0</border>
 		<horizontalAlignment>Left</horizontalAlignment>
 		<textPlacement>Wrap</textPlacement>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧДЦ=2</v8:content>
+			</v8:item>
+		</format>
 	</format>
 	<format>
 		<font>3</font>
@@ -1928,7 +1946,7 @@
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>ЧДЦ=3</v8:content>
+				<v8:content>ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
 	</format>
@@ -1943,7 +1961,7 @@
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>ЧДЦ=3</v8:content>
+				<v8:content>ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
 	</format>
@@ -1954,6 +1972,12 @@
 		<bottomBorder>0</bottomBorder>
 		<horizontalAlignment>Left</horizontalAlignment>
 		<textPlacement>Wrap</textPlacement>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧДЦ=2</v8:content>
+			</v8:item>
+		</format>
 	</format>
 	<format>
 		<font>3</font>
@@ -2038,7 +2062,7 @@
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>ЧДЦ=3</v8:content>
+				<v8:content>ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
 	</format>
@@ -2055,7 +2079,7 @@
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>ЧДЦ=3</v8:content>
+				<v8:content>ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
 	</format>
@@ -2070,7 +2094,7 @@
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>ЧДЦ=3</v8:content>
+				<v8:content>ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
 	</format>
@@ -2083,6 +2107,12 @@
 		<textPlacement>Wrap</textPlacement>
 		<backColor>#90EE90</backColor>
 		<pattern>Solid</pattern>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧДЦ=2</v8:content>
+			</v8:item>
+		</format>
 	</format>
 	<format>
 		<font>3</font>
@@ -2153,5 +2183,11 @@
 		<fillType>Parameter</fillType>
 		<backColor>#90EE90</backColor>
 		<pattern>Solid</pattern>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧДЦ=2</v8:content>
+			</v8:item>
+		</format>
 	</format>
 </document>
